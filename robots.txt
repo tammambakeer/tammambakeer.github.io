@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tammambakeer.github.io/sitemap.xml
+Sitemap: https://bakeer.de/sitemap.xml

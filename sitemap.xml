@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://tammambakeer.github.io/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://tammambakeer.github.io/research.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tammambakeer.github.io/publications.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tammambakeer.github.io/presentations.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tammambakeer.github.io/cv.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tammambakeer.github.io/contact.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bakeer.de/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://bakeer.de/research.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bakeer.de/publications.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bakeer.de/presentations.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bakeer.de/cv.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bakeer.de/contact.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
