@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-<style>.bg{fill:#f7f9fb}.ink{stroke:#14202c}@media (prefers-color-scheme:dark){.bg{fill:#0f151b}.ink{stroke:#e4ecf2}}</style>
-<rect class="bg" width="32" height="32"/>
-<path class="ink" d="M6 27V16.5a10 10 0 0 1 20 0V27" fill="none" stroke-width="2.4"/>
-<path d="M3 28.6h26" stroke="#1d7883" stroke-width="2.6" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+<title id="title">TB monogram</title>
+<rect width="512" height="512" rx="88" fill="#14202c"/>
+<path fill="#f7f9fb" d="M72 112h184v52h-62v220h-60V164H72z"/>
+<path fill="#f7f9fb" fill-rule="evenodd" d="M246 112h92c72 0 110 28 110 78 0 33-18 57-50 69 39 11 60 38 60 75 0 56-42 86-120 86h-92zm60 51v73h31c34 0 50-12 50-37 0-24-16-36-50-36zm0 120v86h37c36 0 54-14 54-43 0-28-18-43-54-43z"/>
+<rect x="72" y="432" width="368" height="20" rx="10" fill="#4fb3c0"/>
 </svg>
