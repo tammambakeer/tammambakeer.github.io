@@ -37,6 +37,7 @@
   --blue:         #123c62;
   --blue-soft:    #1b5285;
   --accent:       #1d7883;
+  --signal:       #b8532a;
   --sel:          #d3e6ec;
 
   --font-display: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
@@ -62,6 +63,7 @@
     --blue:      #8fb8e0;
     --blue-soft: #a7c8ea;
     --accent:    #4fb3c0;
+    --signal:    #e8906a;
     --sel:       #2a4750;
   }
 }
@@ -78,6 +80,7 @@
   --blue:      #8fb8e0;
   --blue-soft: #a7c8ea;
   --accent:    #4fb3c0;
+  --signal:    #e8906a;
   --sel:       #2a4750;
 }
 
@@ -619,3 +622,15 @@ ul.tick li { margin-bottom: .4rem; }
   .figure--responsive .figure__mobile svg { min-width: 0; }
   .figure--responsive .figure__cap { position: static; }
 }
+
+/* Signal colour: marks where a decision is at stake */
+.fig-thread--x { fill: none; stroke: var(--signal); stroke-width: 1.3; opacity: .9; }
+.fig-cross     { fill: var(--signal); stroke: var(--paper); stroke-width: 1; }
+.fig-fill-s    { fill: var(--signal); opacity: .14; stroke: none; }
+.fig-label--s  { fill: var(--signal); }
+.fig-icon      { fill: none; stroke: var(--ink-2); stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+.fig-icon-dot  { fill: var(--ink-2); stroke: none; }
+.fig-icon-ring { fill: var(--paper); stroke: var(--accent); stroke-width: 1.6; }
+.fig-cell      { fill: var(--blue); stroke: none; }
+.fig-cell-r    { fill: var(--accent); stroke: none; }
+.fig-mesh-line { fill: none; stroke: var(--paper); stroke-width: .6; opacity: .9; }
