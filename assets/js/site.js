@@ -82,7 +82,7 @@
   var counter = document.querySelector("[data-count]");
 
   if (filters.length && items.length) {
-    var show = function (key) {
+    var show = function (key, updateUrl) {
       var n = 0;
       Array.prototype.forEach.call(items, function (el) {
         var match = key === "all" || el.getAttribute("data-kind") === key;
@@ -93,7 +93,7 @@
         b.setAttribute("aria-pressed", String(b.getAttribute("data-filter") === key));
       });
       if (counter) counter.textContent = n + (n === 1 ? " entry" : " entries");
-      if (history.replaceState) {
+      if (updateUrl !== false && history.replaceState) {
         history.replaceState(null, "", key === "all" ? location.pathname : location.pathname + "#" + key);
       }
     };
@@ -104,7 +104,8 @@
 
     var hash = (location.hash || "").replace("#", "");
     var known = Array.prototype.map.call(filters, function (b) { return b.getAttribute("data-filter"); });
-    show(known.indexOf(hash) > -1 ? hash : "all");
+    // Preserve links to individual publications on initial page load.
+    show(known.indexOf(hash) > -1 ? hash : "all", false);
   }
 
   /* ---- Footer year ----------------------------------------------------- */
